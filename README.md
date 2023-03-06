@@ -1,5 +1,8 @@
 
- #Lab03-1
+ #Basics About The Programs
+ 
+ 
+ ##Lab03-1
  
  
 The program sets up a signal handler using the signal() function to handle the SIGALRM signal. When the program receives the SIGALRM signal, the function handler() is called, which prints "Hello World!" and sets an alarm for 1 second using the alarm() function.
@@ -9,7 +12,7 @@ The program continues to run until it is interrupted or terminated by an externa
 
 
 
- #Lab03-2.c
+ ##Lab03-2.c
  
 
 The program sets up two signal handlers: handler() and handler2(). The handler() function handles the SIGALRM signal, which is set to be triggered every 1 second by the alarm() function. When the SIGALRM signal is received, the handler() function prints "Hello World!", increments the counter variable, and sets another alarm for 1 second using the alarm() function.
